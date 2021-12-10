@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Car from './Practice concepts/Classcomponent/Car';
+import FunctionalComponent from './Practice concepts/FunctionalComponent/FunctionalComponent';
+import Cars from './Practice concepts/FunctionalComponent/Cars';
+// import ClassComponent from './Practice concepts/Classcomponent/ClassComponent';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ClassComponent/> */}
+      {/* <Car /> */}
+      {/* <FunctionalComponent/> */}
+      <Cars/>
     </div>
   );
 }
